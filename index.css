@@ -92,3 +92,6 @@ a,a:HOVER,a:VISITED,a:ACTIVE {
   color:#fff;
   text-decoration:none;
 }
+.noscroll {
+    position: fixed!important
+}
