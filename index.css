@@ -7,6 +7,9 @@ Import
 /*
 Start CSS design
 */
+
+html, body {margin: 0; height: 100%; overflow: hidden}
+
 body {
   color: #fff;
   font-family: 'Lato', sans-serif;
@@ -91,7 +94,4 @@ h1 {
 a,a:HOVER,a:VISITED,a:ACTIVE {
   color:#fff;
   text-decoration:none;
-}
-.noscroll {
-    position: fixed!important
 }
