@@ -1,0 +1,94 @@
+/*
+Import
+*/
+@import url(https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic);
+@import url(https://daneden.github.io/animate.css/animate.min.css);
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css);
+/*
+Start CSS design
+*/
+body {
+  color: #fff;
+  font-family: 'Lato', sans-serif;
+  height:100%;
+  /* Background */
+  
+/* IE10 Consumer Preview */ 
+background-image: -ms-linear-gradient(bottom right, #0B4461 0%, #801919 100%);
+
+/* Mozilla Firefox */ 
+background-image: -moz-linear-gradient(bottom right, #0B4461 0%, #801919 100%);
+
+/* Opera */ 
+background-image: -o-linear-gradient(bottom right, #0B4461 0%, #801919 100%);
+
+/* Webkit (Safari/Chrome 10) */ 
+background-image: -webkit-gradient(linear, right bottom, left top, color-stop(0, #0B4461), color-stop(1, #801919));
+
+/* Webkit (Chrome 11+) */ 
+background-image: -webkit-linear-gradient(bottom right, #0B4461 0%, #801919 100%);
+
+/* W3C Markup, IE10 Release Preview */ 
+background-image: linear-gradient(to top left, #0B4461 0%, #801919 100%);
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+#wrapper {
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:8%;
+  padding-left:3%;
+  padding-right:3%;
+  width: 85%;
+  height:1100%;
+  background: rgba(0,0,0,0.0);
+  font-weight: 300;
+  display: block;
+  text-shadow: 1px 1px 2px #141414;
+}
+
+h1 {
+  font-weight: 300;
+  font-size:28px;
+}
+.icon {
+  margin-left:7px;
+  padding-left:3px;
+  padding-right:3px;
+}
+.icon-first {
+  padding-left:3px;
+  padding-right:3px;
+}
+.fa-youtube-square:HOVER {
+  color:firebrick;
+  background-color:white;
+  border-radius:9px;
+}
+.fa-facebook-square:HOVER {
+  color:royalblue;
+  background-color:white;
+  border-radius:9px;
+}
+.fa-twitter-square:HOVER {
+  color:rgb(85, 172, 238);
+  background-color:white;
+  border-radius:9px;
+}
+.fa {
+  
+  text-shadow: 0px 0px 0px #fff;
+}
+#footer {
+  position:fixed;
+  bottom:2%;
+  text-align:center;
+  text-shadow: 1px 1px 2px #141414;
+}
+a,a:HOVER,a:VISITED,a:ACTIVE {
+  color:#fff;
+  text-decoration:none;
+}
